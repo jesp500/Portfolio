@@ -1,0 +1,55 @@
+/*
+stylesheet for the portfolio project
+*/
+.logo {
+    max-height: 100px;
+}
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+.projects img {
+    max-height: 150px;
+}
+footer .container {
+    background: #21241C;
+    color: #9D9F94;
+}
+body {
+    background-image: url(../images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    color: #2d3c49;
+}
+.carousel-caption {
+    background: black;
+    opacity: 0.8;
+}
+.projects h2 {
+    margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+    .logo-name img {
+        display: block;
+        margin: 0 auto;
+    }
+    .logo-name .col-sm-9 {
+        text-align: center;
+    }
+    .projects h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+.projects {
+    margin-top: 10px;
+}
+footer {
+    margin-top: 10px;
+}
+.lightgrey {
+    color: #7d97ad;
+}
